@@ -50,6 +50,15 @@ app.all("*", (req, res) => {
   }
 });
 
+// This will fire whenever an unknown endpoint is hit
+app.get("/test", (req, res) => {
+ return res.status(200).json({
+   success: true,
+   message: [],
+   data: "Hello, world!"
+ });
+});
+
 startApp = async () => {
   try {
     mogoose.set("strictQuery", false);
