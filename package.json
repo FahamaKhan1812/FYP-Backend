@@ -25,9 +25,8 @@
     "passport": "^0.6.0",
     "passport-jwt": "^4.0.1",
     "pdfmake": "^0.2.7",
-    "uuid": "^9.0.0"
-  },
-  "devDependencies": {
+    "uuid": "^9.0.0",
     "ethers": "^5.7.2"
-  }
+  },
+  "devDependencies": {}
 }
